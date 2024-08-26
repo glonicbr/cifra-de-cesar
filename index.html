@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="cabecalho">
+        <div class="cabecalho-itens">
+            <div class="cabecalho-itens-texto">
+                <p>
+                    <strong>Cifra de Cesar</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <main>
+        <img src="imagem/bill_cipher__png__by_juantonmendozatheboy_dgdghkn-fullview.png" alt="logotipo do site"
+        id="logo">
+        <section class="corpo">
+            <p class="corpo-mensagem">
+                <textarea name="mensagem_usuario" id="mensagem" placeholder="Digite seu texto aqui: "></textarea>
+            </p>
+            <div class="botao">
+                <button onclick="exibirTexto()" class="corpo-botao-codifica" >criptografar</button>
+                <button onclick="decodificarTexto()" class="corpo-botao-descripitografa">descripitografar</button>
+            </div>
+        </section>
+        <section class="bloco">
+            <div class="bloco-corpo" id="decodificado"> 
+                <p class="corpo-decodificado">
+                    <img src="imagem/pngtree-detective-sticker-cartoon-on-white-background-vector-png-image_11088465.png" alt="detetive">
+                    <p class="corpo-decodificado-mensagem">
+                        <strong>Nenhuma mensagem encontrada!</strong> <br>
+                        Digite seu texto para codificar ou decodificar!
+                    </p>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="container-conteudo">
+                <p class="container-conteudo-texto">
+                   <table>
+                    <thead>
+                        <strong>Sobre mim!</strong>
+                    </thead>
+                    <tbody>
+                        <ul>
+                            <li>
+                                Cursando engenharia da Computação
+                            </li>
+                            <li>
+                                Tenho 20 anos
+                            </li>
+                            <li>
+                                Iniciante em programação front end
+                            </li>
+                        </ul>
+                    </tbody>
+                    <tfoot>
+                        Projeto desenvolvido para a formação ONE 
+                    </tfoot>
+                   </table> 
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app2.js" defer></script>
+</body>
+</html>
